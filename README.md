@@ -41,7 +41,7 @@ NanoMDM is but one component for a functioning MDM server. At a minimum you need
 - TLS.
   - You'll need to provide your own reverse proxy/load balancer that terminates TLS.
 - ADE (DEP) API access.
-  - While ADE/DEP *enrollments* are supported there is no DEP API access.
+  - While ADE/DEP *enrollments* are supported there is no DEP API access. You could use [https://github.com/micromdm/nanomdm](https://github.com/micromdm/nanodep) for accessing the DEP API.
 - Enrollment (Profiles).
   - You'll need to create and serve your own enrollment profiles to devices.
 - Blueprints.
